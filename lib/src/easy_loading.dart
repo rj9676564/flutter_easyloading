@@ -124,6 +124,9 @@ class EasyLoading {
   /// content padding of loading.
   late EdgeInsets contentPadding;
 
+  /// constraints
+  BoxConstraints? constraints;
+
   /// padding of [status].
   late EdgeInsets textPadding;
 

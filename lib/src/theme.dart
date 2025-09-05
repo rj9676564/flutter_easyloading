@@ -135,6 +135,9 @@ class EasyLoadingTheme {
   /// contentPadding of loading
   static EdgeInsets get contentPadding => EasyLoading.instance.contentPadding;
 
+  /// content BoxConstraints
+  static BoxConstraints? get constraints => EasyLoading.instance.constraints;
+
   /// padding of status
   static EdgeInsets get textPadding => EasyLoading.instance.textPadding;
 

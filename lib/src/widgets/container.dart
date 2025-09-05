@@ -204,6 +204,7 @@ class _Indicator extends StatelessWidget {
         boxShadow: EasyLoadingTheme.boxShadow,
       ),
       padding: EasyLoadingTheme.contentPadding,
+      constraints: EasyLoadingTheme.constraints,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,
